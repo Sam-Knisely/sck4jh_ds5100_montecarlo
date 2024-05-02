@@ -1,0 +1,29 @@
+test_1_Die_init (__main__.MonteCarloTestSuite.test_1_Die_init)
+Create a Die object and test if weighted_faces is created as a DataFrame from the init chunk. ... ok
+test_2_Die_weight_update (__main__.MonteCarloTestSuite.test_2_Die_weight_update)
+Tests the weight_update method of the Die class. Specifically, tests if the first value of the weights column in the weighted_faces DataFrame is numeric or castable as a numeric. ... ok
+test_3_Die_roll (__main__.MonteCarloTestSuite.test_3_Die_roll)
+Tests the roll method of the Die class. Specifically, tests if a list is returned. ... ok
+test_4_Die_die (__main__.MonteCarloTestSuite.test_4_Die_die)
+Tests the die method of the Die class. Specifically, tests if the weights column is present in the returned DataFrame. ... ok
+test_5_Game_init (__main__.MonteCarloTestSuite.test_5_Game_init)
+Tests the init chunk of the Game class. Specifically, tests if the die_list is initialized and a list type. ... ok
+test_6_Game_play (__main__.MonteCarloTestSuite.test_6_Game_play)
+Tests the play method of the Game class. Specifically, tests if the amount of rows in the play_output DataFrame is properly updated with the amount of rolls input to the play method (5 in the unittest example). ... ok
+test_7_Game_recent_play (__main__.MonteCarloTestSuite.test_7_Game_recent_play)
+Tests the recent_play method of the Game class. Specifically, tests MultiIndex is present when Narrow is entered as the form parameter. ... ok
+test_8_Analyzer_init (__main__.MonteCarloTestSuite.test_8_Analyzer_init)
+Tests the init chunk of the Analyzer class. Specifically, tests that the variable game_object is in fact a Game object from the Game class. ... ok
+test_9_1_Analyzer_jackpot (__main__.MonteCarloTestSuite.test_9_1_Analyzer_jackpot)
+Tests the jackpot method of the Analyzer class. Specifically, tests that method is returning an integer. ... ok
+test_9_2_Analyzer_face_count (__main__.MonteCarloTestSuite.test_9_2_Analyzer_face_count)
+Tests the face_count method of the Analyzer class. Specifically, tests that number of columns in the returned DataFrame is equal to the number of faces on the input die. ... ok
+test_9_3_Analyzer_combo (__main__.MonteCarloTestSuite.test_9_3_Analyzer_combo)
+Tests the combo method of the Analyzer class. Specifically, tests that returned DataFrame has a MultiIndex. ... ok
+test_9_4_Analyzer_perm (__main__.MonteCarloTestSuite.test_9_4_Analyzer_perm)
+Tests the perm method of the Analyzer class. Specifically, tests that column in the returned DataFrame is named count. ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.027s
+
+OK
