@@ -2,14 +2,11 @@
 Sam Knisely Final Project DS5100
 
 # Metadata
-* Package Name: montecarlo
-* Package Includes: __init__.py, montecarlo.py, montecarlo_test.py
-* Additional Files in Repo: setup.py, montecarlo_demo.ipynb, montecarlo_test_results.txt, scrabble_words.txt, english_letters.txt, README.md
-* LICENSE: MIT
-* Written by: Sam Knisely
+* Written By: Sam Knisely
 * UVA ID: sck4jh
 * UVA Email: sck4jh@virginia.edu
-* Date Created: May 1, 2024
+* Project: Monte Carlo Simulator
+* License: MIT
 * Built With: pandas, numpy
 
 # Synopsis
