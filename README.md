@@ -16,10 +16,11 @@ Sam Knisely Final Project DS5100
 The classes can be called in a Jupyter Notebook. See below:
 
 ```python
-
 ###Import the montecarlo module from the montecarlo package
 
 from montecarlo import montecarlo
+
+
 
 ###Call the Die class with a numpy array parameter
 
@@ -29,6 +30,9 @@ numpy_array = np.array([1, 2, 3, 4, 5, 6])
 
 #Call the Die class and create the Die_Example Die object
 Die_object = montecarlo.Die(numpy_array)
+
+
+
 
 ###Call the Game class with a list of Die objects and call the play method to play 1000 times
 
@@ -40,6 +44,9 @@ Game_object = montecarlo.Game(die_list)
 
 #Call the play method to play 1000 times
 Game_object.play(1000)
+
+
+
 
 ###Call the Analyzer class with a Game Object
 
