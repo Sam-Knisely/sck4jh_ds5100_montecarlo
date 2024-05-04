@@ -48,7 +48,7 @@ Analyzer_object = montecarlo.Analyzer(Game_object)
 ```
 
 # API
-* Die Class
+## Die Class
     
         """
         Required inputs: 
@@ -61,7 +61,7 @@ Analyzer_object = montecarlo.Analyzer(Game_object)
         the die with the number of faces and corresponding weights.
         """
   
-* Methods:
+### Methods:
 
 * weight_update
 
@@ -99,7 +99,7 @@ Analyzer_object = montecarlo.Analyzer(Game_object)
         This method returns the current state of the die and its associated weights.
         """
 
-* Game class
+## Game Class
 
         """
         Required inputs: 
@@ -115,7 +115,7 @@ Analyzer_object = montecarlo.Analyzer(Game_object)
         amount of times, and saves the outcomes in Wide format. The recent_play method returns the play output in either 
         Wide or Narrow format, as specified with Wide being default.
         """
-* Methods:
+### Methods:
 
 * play
 
@@ -142,7 +142,7 @@ Analyzer_object = montecarlo.Analyzer(Game_object)
         This method raises a ValueError if the user passes an invalid option for narrow or wide.
         """
 
-* Analyzer Method
+## Analyzer Class
         
         """
         Required inputs: 
@@ -155,7 +155,7 @@ Analyzer_object = montecarlo.Analyzer(Game_object)
         times a given face is rolled in each event. The combo method returns the distinct combinations of faces rolled, 
         along with their counts. The perm method returns the distinct permutations of faces rolled, along with their counts.
         """
-* Methods:
+### Methods:
 
 * jackpot
 
