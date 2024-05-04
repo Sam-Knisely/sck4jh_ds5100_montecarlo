@@ -1,6 +1,12 @@
 # Monte Carlo Module
+
+"""
+Import pandas as pd and numpy as np for use throughout the module
+"""
+
 import pandas as pd
 import numpy as np
+
 class Die():
     """
     Required inputs: 
@@ -126,7 +132,7 @@ class Game():
                 roll_output.append(r)
             output.append(roll_output)
         self.play_output = pd.DataFrame(output)
-        self.play_output = self.play_output.applymap(lambda x: int(x[0]))
+        self.play_output = self.play_output.applymap(lambda x: x[0])
         self.play_output.index.name = "Roll Number"
     def recent_play(self, form = "Wide"):
         """
